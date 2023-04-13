@@ -1,7 +1,7 @@
 const pokemon = [
   {
     image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png",
-    name: "Mewtwoooooooo",
+    name: "Mewtwo",
   },
 
   {
@@ -62,6 +62,10 @@ const pokemon = [
     name: "Gyarados",
     image: "https://assets.pokemon.com/assets/cms2/img/pokedex/full/130.png",
   },
+  {
+    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/249.png",
+    name: "Lugia",
+  }
 ];
 
 export default pokemon;

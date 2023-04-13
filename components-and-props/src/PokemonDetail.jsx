@@ -1,9 +1,12 @@
 import React from "react";
 
-function PokemonDetail({ name, image }) {
-  console.log(name, image);
+function PokemonDetail({ name, image, onPokemonSelect }) {
+  function handleClick(){
+    onPokemonSelect(name);
+  }
+  
   return (
-    <div>
+    <div onClick={handleClick}>
       <img height={250} src={image}></img>
       <p>{name}</p>
     </div>
