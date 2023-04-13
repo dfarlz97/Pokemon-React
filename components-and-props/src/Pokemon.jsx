@@ -1,6 +1,3 @@
-
- 
-
 import React from "react";
 import PokemonDetail from "./PokemonDetail";
 import AddNewPokemon from "./AddNewPokemon";
